@@ -4,10 +4,10 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-st.title("🔠 Reconocimiento Óptico de Caracteres (OCR)")
+st.title("Reconocimiento Óptico de Caracteres")
 
 # --- Selección del método de entrada ---
-opcion = st.radio("Selecciona una fuente de imagen:", ("📸 Cámara", "🖼️ Subir imagen"))
+opcion = st.radio("Selecciona cómo prefieres subir tu imagen", ("Cámara", "Subir imagen"))
 
 # --- Sidebar: filtro ---
 with st.sidebar:
