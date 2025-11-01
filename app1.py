@@ -16,9 +16,9 @@ with st.sidebar:
 # --- Captura o carga de imagen ---
 img_file_buffer = None
 
-if opcion == "📸 Cámara":
+if opcion == "Cámara":
     img_file_buffer = st.camera_input("Toma una foto")
-elif opcion == "🖼️ Subir imagen":
+elif opcion == "Subir imagen":
     img_file_buffer = st.file_uploader("Sube una imagen", type=["jpg", "jpeg", "png"])
 
 # --- Procesamiento de imagen ---
